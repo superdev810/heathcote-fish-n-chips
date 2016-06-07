@@ -58,3 +58,20 @@
     }
   }
 }
+
+.hero-scroll-down {
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+  margin-bottom: 10px;
+
+  .glyphicon {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-scroll-down {
+    left: 40%;
+  }
+}
