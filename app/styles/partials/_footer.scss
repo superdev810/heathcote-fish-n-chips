@@ -1,0 +1,59 @@
+.opening-times {
+  background-color: #e98e7d;
+  text-align: center;
+  padding: 25px 0;
+  color: #ffffff;
+}
+
+.opening-time__heading {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.opening-time-table__row {
+  width: 500px;
+  margin: auto;
+}
+
+.opening-time-table__date {
+  display: inline-block;
+  width: 40%;
+  text-align: left;
+}
+
+.opening-time-table__time {
+  display: inline-block;
+  width: 20%;
+  text-align: left;
+}
+
+.job-opportunities {
+  background-color: #aad4b3;
+  text-align: center;
+  padding: 25px 0;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.thank-you-img-wrap {
+  padding: 10px 0;
+}
+
+.thank-you-img {
+  width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .opening-time-table__row {
+    width: 100%;
+  }
+
+  .opening-time-table__time {
+    width: 30px;
+  }
+
+  .job-opportunities {
+    font-size: 18px;
+  }
+}
