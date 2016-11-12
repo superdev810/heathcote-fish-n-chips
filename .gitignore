@@ -1,4 +1,7 @@
 node_modules
+public/dist/
+public/index.html
+public/sitemap.xml
 
 # Idea Files
 heathcote-fish-n-chips.iml
