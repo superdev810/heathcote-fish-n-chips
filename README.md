@@ -1,4 +1,9 @@
-# React Static Boilerplate &nbsp; [![Build Status](http://img.shields.io/travis/kriasoft/react-static-boilerplate/master.svg?style=flat-square)](https://travis-ci.org/kriasoft/react-static-boilerplate) [![To-do](https://img.shields.io/waffle/label/kriasoft/react-static-boilerplate/to-do.svg?style=flat-square)](https://waffle.io/kriasoft/react-static-boilerplate) [![Online Chat](http://img.shields.io/badge/chat_room-%23react--static--boilerplate-blue.svg?style=flat-square)](https://gitter.im/kriasoft/react-static-boilerplate)
+# React Static Boilerplate &nbsp;
+
+**Status** 
+[![Circle CI](https://circleci.com/gh/rayvafa/heathcote-fish-n-chips.svg?style=shield&circle-token=41e9560752b5588786a99a114a723652c3399e03)](https://circleci.com/gh/rayvafa/heathcote-fish-n-chips)
+
+[![Build Status](http://img.shields.io/travis/kriasoft/react-static-boilerplate/master.svg?style=flat-square)](https://travis-ci.org/kriasoft/react-static-boilerplate) [![To-do](https://img.shields.io/waffle/label/kriasoft/react-static-boilerplate/to-do.svg?style=flat-square)](https://waffle.io/kriasoft/react-static-boilerplate) [![Online Chat](http://img.shields.io/badge/chat_room-%23react--static--boilerplate-blue.svg?style=flat-square)](https://gitter.im/kriasoft/react-static-boilerplate)
 
 > [**React Static Boilerplate**](https://github.com/kriasoft/react-static-boilerplate) (RSB) is an
 > opinionated boilerplate and tooling for creating modern stand-alone web applications (aka
