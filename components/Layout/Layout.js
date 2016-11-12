@@ -9,12 +9,10 @@
  */
 
 import React, { PropTypes } from 'react';
-import cx from 'classnames';
 import Header from './header/Header';
 import Footer from '../Footer/Footer';
 import About from './about/About';
 import Hero from './hero/Hero';
-import s from './Layout.css';
 
 class Layout extends React.Component {
 
