@@ -10,8 +10,8 @@
 
 import React, { PropTypes } from 'react';
 import cx from 'classnames';
-import Header from './Header';
-import Footer from '../Footer';
+import Header from './header/Header';
+import Footer from '../Footer/Footer';
 import About from './about/About';
 import s from './Layout.css';
 
