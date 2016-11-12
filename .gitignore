@@ -1,9 +1,8 @@
 node_modules
-dist
-.tmp
-.sass-cache
-bower_components
-test/bower_components
+public/dist/
+public/index.html
+public/sitemap.xml
 
+# Idea Files
 heathcote-fish-n-chips.iml
 .idea
