@@ -1,3 +1,9 @@
 machine:
   node:
     version: 6.7.0
+test:
+  post:
+    # Run lint
+    - npm run lint
+    # Run tests
+    - npm test
