@@ -3,7 +3,5 @@ machine:
     version: 7.7.2
 test:
   post:
-    # Run tests
-    - npm test
     # Run build
     - npm run build
