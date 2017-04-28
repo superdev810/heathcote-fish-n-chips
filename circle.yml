@@ -5,5 +5,3 @@ test:
   post:
     # run lint
     - npm run lint
-    # run build
-    - npm run build
