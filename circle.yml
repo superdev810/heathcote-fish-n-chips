@@ -3,5 +3,7 @@ machine:
     version: 7.7.2
 test:
   post:
-    # Run build
+    # run lint
+    - npm run lint
+    # run build
     - npm run build
