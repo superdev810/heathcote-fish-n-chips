@@ -1,0 +1,10 @@
+.menu {
+    mix-blend-mode: difference;
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    top: calc(50% - 222px);
+    text-align: right;
+    margin-right: 25px;
+    opacity: 1;
+}
