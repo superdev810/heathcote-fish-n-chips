@@ -55,7 +55,7 @@ class Section6 extends Component {
               <p style={p_style_1}>Passionate enough to join the ranks?</p>
               <p style={p_style_2}>We are always looking for fellow companions to join us in our quest to deliver the best service and amazing hospitality.</p>
             </div>
-            <div className="detail col-md-6">
+            <form action="mailto:s_vaziry@yahoo.com" className="detail col-md-6">
               <h1 style={h1_style_1}>YOUR DETAILS</h1>
               <div className="name-box row">
                 <div className="box-left col-md-6">
@@ -114,10 +114,10 @@ class Section6 extends Component {
               </div>
               <div className="row">
                 <div className="button-box col-md-4">
-                  <input className="buttonbox" type="button" value="NEXT" />
+                  <input className="buttonbox" type="submit" value="Submit" />
                 </div>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </section>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import equipe1 from './Assets/images/equipe1.jpg';
+import equipe1 from './Assets/images/our-team/sarvenaz.JPG';
 import equipe2 from './Assets/images/equipe2.jpg';
 import equipe3 from './Assets/images/equipe3.jpg';
 import './Assets/css/section.css';
