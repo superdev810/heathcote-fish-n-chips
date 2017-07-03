@@ -48,7 +48,7 @@ class App extends Component {
 }
 
 App.propTypes = {
-  history: PropTypes.object.isRequired,
+  history: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
 };
 
 export default withRouter(App);
