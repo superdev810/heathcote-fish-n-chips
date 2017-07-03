@@ -14,6 +14,12 @@ import './App.css';
 
 class App extends Component {
 
+  constructor(props) {
+    super(props);
+
+    this.handleNavLink = this.handleNavLink.bind(this);
+  }
+
   handleNavLink(event) {
     event.preventDefault();
     this.props.history.push(event.currentTarget.getAttribute('href'));
@@ -42,7 +48,7 @@ class App extends Component {
 }
 
 App.propTypes = {
-  history: PropTypes.string.isRequired,
+  history: PropTypes.object.isRequired,
 };
 
 export default withRouter(App);
