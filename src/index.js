@@ -8,5 +8,5 @@ ReactDOM.render(
   <Router>
     <App />
   </Router>,
-  document.getElementById('root')
+  document.getElementById('root'), // eslint-disable-line no-undef
 );

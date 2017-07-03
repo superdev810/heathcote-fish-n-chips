@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import {
   withRouter,
-  Link
+  Link,
 } from 'react-router-dom';
 import {
   Nav,
@@ -13,7 +14,7 @@ import './App.css';
 
 class App extends Component {
 
-  handleNavLink = (event) => {
+  handleNavLink(event) {
     event.preventDefault();
     this.props.history.push(event.currentTarget.getAttribute('href'));
   }
@@ -39,5 +40,9 @@ class App extends Component {
     );
   }
 }
+
+App.propTypes = {
+  history: PropTypes.string.isRequired,
+};
 
 export default withRouter(App);

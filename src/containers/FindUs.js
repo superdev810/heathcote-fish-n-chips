@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class FindUs extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Find Us</h1>
-      </div>
-    );
-  }
-}
+const FindUs = () => (
+  <div>
+    <h1>Find Us</h1>
+  </div>
+);
 
 export default FindUs;
