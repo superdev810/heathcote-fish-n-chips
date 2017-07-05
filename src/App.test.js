@@ -1,3 +1,4 @@
+/* eslint linebreak-style: ["error", "windows"] */
 import assert from 'assert';
 
 it('renders without crashing', () => { // eslint-disable-line no-undef
