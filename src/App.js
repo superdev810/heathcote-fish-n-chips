@@ -21,7 +21,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App container">        
+      <div className="App container">
         <Navbar fluid collapseOnSelect>
           <Nav>
             <RouteNavItem onClick={this.handleNavLink} href="/">Home</RouteNavItem>
@@ -37,12 +37,6 @@ class App extends Component {
           </Nav>
         </Navbar>
         <Routes />
-        <div className="title">
-          <h1>Heathcote Fish and Chips</h1>
-          <p>Since 1960</p>
-          <h4>1353 Princes Hwy, Heathcote, NSW, 2233</h4>
-          <h4>(02) 9548 5031</h4>
-        </div>
       </div>
     );
   }

@@ -10,5 +10,5 @@ export default () => (
     <Route path="/find-us" exact component={FindUs} />
     { /* Finally, catch all unmatched routes */ }
     <Route component={NotFound} />
-  </Switch>  
+  </Switch>
 );
