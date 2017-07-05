@@ -33,5 +33,6 @@ module.exports = {
       args: 'after-used',
       argsIgnorePattern: '_',
     }],
+    "linebreak-style": 0
   },
 };
