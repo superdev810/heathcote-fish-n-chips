@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import {
-  withRouter,
-  Link,
-} from 'react-router-dom';
-import {
-  Nav,
-  Navbar,
-} from 'react-bootstrap';
+import { withRouter } from 'react-router-dom';
+import { Nav, Navbar } from 'react-bootstrap';
 import RouteNavItem from './components/RouteNavItem';
 import Routes from './Routes';
 import './App.css';
@@ -27,21 +21,28 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App container">
+      <div className="App container">        
         <Navbar fluid collapseOnSelect>
-          <Navbar.Header>
-            <Navbar.Brand>
-              <Link to="/">Heathcote Fish and Chips</Link>
-            </Navbar.Brand>
-            <Navbar.Toggle />
-          </Navbar.Header>
-          <Navbar.Collapse>
-            <Nav pullRight>
-              <RouteNavItem onClick={this.handleNavLink} href="/find-us">Find Us</RouteNavItem>
-            </Nav>
-          </Navbar.Collapse>
+          <Nav>
+            <RouteNavItem onClick={this.handleNavLink} href="/">Home</RouteNavItem>
+          </Nav>
+          <Nav>
+            <RouteNavItem onClick={this.handleNavLink} href="#">Opening Times</RouteNavItem>
+          </Nav>
+          <Nav>
+            <RouteNavItem onClick={this.handleNavLink} href="/find-us">Find Us</RouteNavItem>
+          </Nav>
+          <Nav>
+            <RouteNavItem onClick={this.handleNavLink} href="#">Jobs</RouteNavItem>
+          </Nav>
         </Navbar>
         <Routes />
+        <div className="title">
+          <h1>Heathcote Fish and Chips</h1>
+          <p>Since 1960</p>
+          <h4>1353 Princes Hwy, Heathcote, NSW, 2233</h4>
+          <h4>(02) 9548 5031</h4>
+        </div>
       </div>
     );
   }
