@@ -1,3 +1,25 @@
-.App .navbar-brand {
+.layout__wrap .navbar-brand {
   font-weight: bold;
+}
+
+.website__home-link {
+  color: #ffffff !important;
+}
+
+.layout__nav-wrap {
+  position: absolute;
+  width: 100%;
+}
+
+.layout__navbar {
+  background: transparent;
+  border: 0;
+}
+
+.layour__nav-link a {
+  color: #ffffff !important;
+}
+
+.layour__nav-link.active a {
+  background-color: transparent !important;
 }
