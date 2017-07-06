@@ -1,0 +1,29 @@
+.landing-page__wrap {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  background-image: url('../../public/images/hero-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding-top: 200px;
+}
+
+.landing-page__main-title {
+  font-size: 60px;
+  padding: 10px;
+  margin: 0;
+}
+
+.landing-page__sub-title {
+  font-size: 11px;
+  padding: 10px;
+}
+
+.landing-page__address,
+.landing-page__tel {
+  font-size: 18px;
+  padding: 10px;
+}

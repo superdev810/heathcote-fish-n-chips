@@ -27,20 +27,35 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App container">
-        <Navbar fluid collapseOnSelect>
-          <Navbar.Header>
-            <Navbar.Brand>
-              <Link to="/">Heathcote Fish and Chips</Link>
-            </Navbar.Brand>
-            <Navbar.Toggle />
-          </Navbar.Header>
-          <Navbar.Collapse>
-            <Nav pullRight>
-              <RouteNavItem onClick={this.handleNavLink} href="/find-us">Find Us</RouteNavItem>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
+      <div className="layout__wrap">
+        <div className="layout__nav-wrap">
+          <Navbar fluid collapseOnSelect className="container layout__navbar">
+            <Navbar.Header>
+              <Navbar.Brand>
+                <Link className="website__home-link" to="/">Heathcote Fish and Chips</Link>
+              </Navbar.Brand>
+              <Navbar.Toggle />
+            </Navbar.Header>
+            <Navbar.Collapse>
+              <Nav pullRight>
+                <RouteNavItem
+                  onClick={this.handleNavLink}
+                  href="/"
+                  className="layour__nav-link"
+                >
+                  Home
+                </RouteNavItem>
+                <RouteNavItem
+                  onClick={this.handleNavLink}
+                  href="/find-us"
+                  className="layour__nav-link"
+                >
+                  Find Us
+                </RouteNavItem>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+        </div>
         <Routes />
       </div>
     );
