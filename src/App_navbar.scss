@@ -1,0 +1,9 @@
+.navbar-default .navbar-nav>.active>a {
+  &,  
+  &:focus,
+  &:hover{
+    background: transparent;
+    opacity: 0.5;
+    color: white;
+  }
+}
