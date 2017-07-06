@@ -6,6 +6,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 import RouteNavItem from './components/RouteNavItem';
 import Routes from './Routes';
 import './App.css';
+import './App_navbar.css';
 
 class App extends Component {
 
