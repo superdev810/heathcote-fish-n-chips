@@ -1,8 +1,53 @@
 .our-team__wrap {
   color: #ffffff;
   text-align: center;
-  width: 100%;
-  height: 100vh;
   padding-top: 200px;
   background-color: #344963;
+}
+
+.our-team {
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+}
+
+.our-team__main-title {
+  text-transform: uppercase;
+}
+
+.our-team__description {
+  text-align: left;
+  padding: 0 20px;
+}
+
+.our-team__column-left {
+  text-align: right;
+  padding: 10px;
+}
+
+.our-team__column-right {
+  padding: 10px;
+}
+
+.our-team__image {
+  width: 100%;
+}
+
+.our-team__image-small {
+  width: 80%;
+  margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+  .our-team__wrap {
+    padding-top: 100px;
+  }
+
+  .our-team {
+    flex-direction: column-reverse;
+  }
+
+  .our-team__image-small {
+    width: 100%;
+  }
 }
