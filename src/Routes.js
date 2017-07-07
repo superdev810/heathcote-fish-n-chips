@@ -6,6 +6,7 @@ import AboutUs from './containers/AboutUs';
 import OurMenu from './containers/OurMenu';
 import Reviews from './containers/Reviews';
 import OurTeam from './containers/OurTeam';
+import Career from './containers/Career';
 import FindUs from './containers/FindUs';
 
 export default () => (
@@ -15,6 +16,7 @@ export default () => (
     <Route path="/our-menu" exact component={OurMenu} />
     <Route path="/reviews" exact component={Reviews} />
     <Route path="/our-team" exact component={OurTeam} />
+    <Route path="/career" exact component={Career} />
     <Route path="/find-us" exact component={FindUs} />
     { /* Finally, catch all unmatched routes */ }
     <Route component={NotFound} />

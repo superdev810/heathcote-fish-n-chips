@@ -68,6 +68,13 @@ class App extends Component {
                 </RouteNavItem>
                 <RouteNavItem
                   onClick={this.handleNavLink}
+                  href="/career"
+                  className="layour__nav-link"
+                >
+                  Career
+                </RouteNavItem>
+                <RouteNavItem
+                  onClick={this.handleNavLink}
                   href="/find-us"
                   className="layour__nav-link"
                 >
