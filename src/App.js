@@ -40,17 +40,17 @@ class App extends Component {
               <Nav pullRight>
                 <RouteNavItem
                   onClick={this.handleNavLink}
-                  href="/"
-                  className="layour__nav-link"
-                >
-                  Home
-                </RouteNavItem>
-                <RouteNavItem
-                  onClick={this.handleNavLink}
                   href="/about-us"
                   className="layour__nav-link"
                 >
                   About Us
+                </RouteNavItem>
+                <RouteNavItem
+                  onClick={this.handleNavLink}
+                  href="/our-menu"
+                  className="layour__nav-link"
+                >
+                  Our Menu
                 </RouteNavItem>
                 <RouteNavItem
                   onClick={this.handleNavLink}
